@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>HOME | スペシャルサイト</title>
+    <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css" />
+    <!-- google-font icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="text/css" href="Images/logo.png" />
+  </head>
+  <body>   
+
+    <!-- header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
+          <button class="navbar-toggler text-dark" data-toggle="collapse" data-target="#navbar">
+						<span class="material-icons font-30  ml-auto">
+						sort
+						</span>						
+					</button> 
+          <div class="collapse navbar-collapse" id="navbar">          
+            <ul class="navbar-nav mx-auto font-weight-bold">
+              <li class="nav-item">
+                <a href="#" class="nav-link mr-5 active"
+                  >Webデザイン科の一日
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mr-5"
+                  >学科の紹介
+                </a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mr-5"
+                  >生活費モデルケース
+                </a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link mr-5"
+                  >お問い合わせ
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main>
+      <!-- landing start -->
+      <section id="landing-page">
+        <p class="landing-text font-noto">
+        Webデザイン科で出会う、<br><span class="typed1 text-fav"></span>
+        </p>        
+      </section>
+      <!-- landing end -->
+      <!-- skills start -->
+      <section id="skills">
+        <div class="row">        
+          <div class="col-lg-4 col-md-6">
+            <div class="card-1 pb-3 py-3 px-5 bg-white">
+              <img src="Images/Classroom.svg" alt="teaching-image" class="img-fluid d-block mx-auto mt-4">             
+              <div class="card-body">
+                <p class="card-heading mt-3 font-plus text-center">実践で学ぶ、使えるスキル</p>
+                <p class="mt-5 font-noto text-center">
+                  デザインの基礎だけでなく、Figma・Photoshop・Visual Studio Codeなど現場で使われているツール	を実際に使って学習。卒業後すぐに現場で活かせるスキルが手に入ります。
+                </p>
+                <button class="btn mt-5 bg-fav text-white mb-1">もっと見る</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card-2 pb-3 py-3 px-5 bg-sub-fav">
+              <img src="Images/Thinking Bubble.svg" alt="Thinking-image" class="img-fluid d-block mx-auto mt-3">             
+              <div class="card-body">
+                <p class="card-heading mt-3 font-plus text-center">考えて、作って、伝える力</p>
+                <p class="mt-5 font-noto text-center">
+                  ただ作るだけじゃない。企画、設計、制作、発表までを自分でやるから、「自分のア	イデアをカタチにする力」が自然と身につく！　将来、UI/UXデザイナーを目指す学生たちにもぴったりです。
+                </p>
+                <button class="btn mt-5 bg-fav text-white mb-1">もっと見る</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card-3 pb-3 py-3 px-5 bg-white">
+              <img src="Images/Language.svg" alt="language-image" class="img-fluid d-block mx-auto mt-3">             
+              <div class="card-body">
+                <p class="card-heading mt-3 font-plus text-center">留学生も安心の環境</p>
+                <p class="mt-5 font-noto text-center">
+                  同じように日本語や文化に不安を持って入学した先輩もたくさん！わからないときは助け合える 環境と、やさしくサポートしてくれる先生たちがいるから、安心してチャレンジできます。
+                </p>
+                <button class="btn mt-5 bg-fav text-white mb-1">もっと見る</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills end -->
+      <!-- timetable start -->
+      <section id="timeTable" class="container pt-4">
+        <p class="font-32 text-center font-weight-bold mt-5">一日の流れ</p>
+        <img src="Images/timetable.png" alt="" class="img-fluid mt-5">
+        <div class="classIntro mt-5">
+          <div class="category-menu d-flex justify-content-center" id="categoryMenu">
+            <button data-category="monday">月曜日</button>
+            <button class="active" data-category="tuesday">火曜日</button>
+            <button data-category="wednesday">水曜日</button>
+            <button data-category="thursday">木曜日</button>
+            <button data-category="friday">金曜日</button>
+          </div>
+          <div class="content mt-5 d-block mx-auto">
+            <div class="blog-post mt-5 show" data-category="monday">
+              <div class="row mb-5">
+                <div class="col-lg-4 col-md-5">
+                  <img src="Images/drawing.jpg" alt="drawing-image" class="img-fluid">
+                </div>
+                <div class="col-lg-8 bg-fav text-white py-4 px-4">
+                  <p class="font-18 font-weight-bold">
+                    イラスト
+                  </p>
+                  <p class="mt-4 font-noto font-16">
+                    この授業では、「どんな問題があるか」「どうやってよくするか」を自分で考えます。考える力と、アイデアを伝える力が、少しずつできるようになる授業です。
+                  </p>
+                  <p></p>
+                </div>
+						  </div>
+					  </div>
+            <div class="blog-post show" data-category="tuesday">
+              <div class="row mb-5">
+                <div class="col-lg-4 col-md-5">
+                  <img src="Images/plan.png" alt="">
+                </div>
+                <div class="col-lg-8 bg-fav text-white py-4 px-4">
+                  <p class="font-18 font-weight-bold">
+                    企画書プレゼん
+                  </p>
+                  <p class="mt-4 font-noto font-16">
+                    この授業では、「どんな問題があるか」「どうやってよくするか」を自分で考えます。考える力と、アイデアを伝える力が、少しずつできるようになる授業です。
+                  </p>
+                  <p></p>
+                </div>
+						  </div>
+              <div class="row ">
+                <div class="col-lg-4 col-md-5 mx-auto">
+                  <img src="Images/html1.png" alt="html-image">
+                </div>
+                <div class="col-lg-8  bg-fav text-white py-4 px-4">
+                  <p class="font-18 font-weight-bold font-noto">
+                    HTML&CSS
+                  </p>
+                  <p class="mt-4 font-noto font-16">
+                    「Webサイトってどうやって作るの？」そんな疑問から始められる授業です。はじめてでも大丈夫。タグやスタイルの基本を学んで、自分だけのページを作れるように	なります！
+                  </p>
+                  <p></p>
+                </div>
+						  </div>
+            </div>
+            <div class="blog-post show" data-category="wednesday">              
+              <div class="row ">
+                <div class="col-lg-4 col-md-5 mx-auto">
+                  <img src="Images/html1.png" alt="html-image">
+                </div>
+                <div class="col-lg-8  bg-fav text-white py-4 px-4">
+                  <p class="font-18 font-weight-bold font-noto">
+                    HTML&CSS
+                  </p>
+                  <p class="mt-4 font-noto font-16">
+                    「Webサイトってどうやって作るの？」そんな疑問から始められる授業です。はじめてでも大丈夫。タグやスタイルの基本を学んで、自分だけのページを作れるように	なります！
+                  </p>
+                  <p></p>
+                </div>
+						  </div>
+            </div>
+            <div class="blog-post show" data-category="thursday">
+              <div class="row  mb-5">
+                <div class="col-lg-4 col-md-5 mx-auto">
+                  <img src="Images/work.jpg" alt="html-image" class="img-fluid">
+                </div>
+                <div class="col-lg-8  bg-fav text-white py-4 px-4">
+                  <p class="font-18 font-weight-bold font-noto">
+                   就職リテラシー
+                  </p>
+                  <p class="mt-4 font-noto font-16">
+                    履歴書の書き方や自己PRの伝え方など、就職活動に必要なスキルを基礎から学びます。日本企業で働くためのマナーやルールも知ることができ将来の就職に向けた準備が    しっかりと進められます。
+                  </p>
+                  <p></p>
+                </div>
+						  </div>
+              <div class="row mb-5">
+                <div class="col-lg-4 col-md-5 mx-auto">
+                  <img src="Images/ui.png" alt="html-image" class="img-fluid">
+                </div>
+                <div class="col-lg-8  bg-fav text-white py-4 px-4">
+                  <p class="font-18 font-weight-bold font-noto">
+                   UI . UX
+                  </p>
+                  <p class="mt-4 font-noto font-16">
+                  PhotoshopやFigmaなどのツールを使い、使いやすく見た目も良いデザインの作り方を学び			ます。ユーザーの気持ちを考えた設計方法を身につけます。
+                  </p>
+                  <p></p>
+                </div>
+						  </div>
+              <div class="row mb-5">
+                <div class="col-lg-4 col-md-5 mx-auto">
+                  <img src="Images/color.png" alt="html-image" class="img-fluid">
+                </div>
+                <div class="col-lg-8  bg-fav text-white py-4 px-4">
+                  <p class="font-18 font-weight-bold font-noto">
+                   色彩演習
+                  </p>
+                  <p class="mt-4 font-noto font-16">
+                   色の基本や組み合わせ方を学び、デザインで効果的に色を使う方法を身につけます。色の意味や心理効果も理解し、魅力的な作品づくりに役立てるようになる授業です。
+                  </p>
+                  <p></p>
+                </div>
+						  </div>
+            </div>
+            <div class="blog-post show" data-category="friday">
+              <div class="row mb-5">
+                <div class="col-lg-4 col-md-5 mx-auto">
+                  <img src="Images/js.jpg" alt="html-image" class="img-fluid">
+                </div>
+                <div class="col-lg-8  bg-fav text-white py-4 px-4">
+                  <p class="font-18 font-weight-bold font-noto">
+                   JavaScript
+                  </p>
+                  <p class="mt-4 font-noto font-16">
+                    JavaScriptの基本と、よく使われるライブラリやフレームワークについて学びます。動きのあるWebサイトを作るための技術を身につけれるようになる授業ます。
+                  <p></p>
+                </div>
+						  </div>
+              <div class="row mb-5">
+                <div class="col-lg-4 col-md-5 mx-auto">
+                  <img src="Images/hr.JPG" alt="html-image" class="img-fluid">
+                </div>
+                <div class="col-lg-8  bg-fav text-white py-4 px-4">
+                  <p class="font-18 font-weight-bold font-noto">
+                   HOMEROOM
+                  </p>
+                  <p class="mt-4 font-noto font-16">
+                   担任の先生が週ごとの様子や勉強の進み具合を聞き、今後の学校行事についても説明します。安心して学べる環境づくりをサポートする時間です。
+                  <p></p>
+                </div>
+						  </div>
+						  </div>
+            </div>
+            
+				  </div>
+          	                
+        </div>          
+         
+      </section>
+      <!-- timetable end -->
+      <!-- messages start -->
+      <section id="messages" class="container py-5">
+        <p class="font-32 text-center font-weight-bold mt-5">在校生からのメッセージ</p>
+        <div class="row mt-5 text-white">
+          <div class="col-md-4 mb-0 mt-5">
+            <p class=" bg-fav messages-text py-4 px-3 mb-0 font-weight-bold font-15" style="line-height: 25px;">
+              「難しそう」と思う気持ちは自然なこと。でも、Webデザイン科では、わからないままにしない環境	があります。安心して、まずは一緒に体験してみましょう！
+            </p>
+            <img src="Images/Polygon-1.svg" alt="polygon-photo" class="polygon-photo ml-2" style="margin-top: -2px;">
+            <div class="d-flex mt-4">
+              <div class="mr-3">
+                <img src="Images/profile2.svg" alt="profile2" class="profile-photo">              
+              </div>
+              <div class=" text-dark mt-3 font-weight-bold ">
+                <p class="mb-0 font-weight-bold font-14 ">
+                  テッ ティハ チョー
+                </p>
+                <p class="text-fav mt-1 font-15">
+                  Webデザイン科	 1年生
+                </p>
+              </div>
+              
+            </div>            
+          </div>
+          <div class="col-md-4 mb-0 mt-5">
+            <p class=" bg-sub-fav messages-text text-dark py-4 px-3 mb-0 font-weight-bold font-15" style="line-height: 25px;">
+             「日本語が不安」「自分にできるか分からない」それ、私たちも最初は同じでした。でも、ここでは仲間と一緒に、少しずつ学んでいけます。最初の一歩が、きっと未来につながります 分からないことがあっても大丈夫。一人じゃないから、安心して進んでいけます。あなたのペースで、あなたらしく、夢に近づいていきましょう。
+            </p>
+            <img src="Images/Polygon-2.svg" alt="polygon-photo" class="polygon-photo ml-2" style="margin-top: -2px;">
+            <div class="d-flex mt-4">
+              <div class="mr-3">
+                <img src="Images/profile1.svg" alt="profile1" class="profile-photo">              
+              </div>
+              <div class=" text-dark mt-3 font-weight-bold ">
+                <p class="mb-0 font-weight-bold font-14 ">
+                  カントポン
+                </p>
+                <p class="text-fav mt-1 font-15">
+                  Webデザイン科	 1年生
+                </p>
+              </div>
+              
+            </div>            
+          </div>
+          <div class="col-md-4 mb-0 mt-5">
+            <p class=" bg-fav messages-text py-4 px-3 mb-0 font-weight-bold font-16" style="line-height: 25px;">
+              デザインに正解はありません。だからこそ、あなたの感性や経験が大きな力になります。迷っている今こそ、Webデザインの世界を少しのぞいてみませんか？
+            </p>
+            <img src="Images/Polygon-1.svg" alt="polygon-photo" class="polygon-photo ml-2" style="margin-top:-2px;">
+            <div class="d-flex mt-4">
+              <div class="mr-3">
+                <img src="Images/profile3.svg" alt="profile2" class="profile-photo">              
+              </div>
+              <div class=" text-dark mt-3 font-weight-bold ">
+                <p class="mb-0 font-weight-bold font-14 ">
+                  テッ ティハ チョー
+                </p>
+                <p class="text-fav mt-1 font-15">
+                  Webデザイン科	 1年生
+                </p>
+              </div>
+              
+            </div>            
+          </div>
+        </div>
+      </section>
+      <!-- messages  end -->
+      <!-- expense start -->
+      <section id="expense" class="container py-5">
+        <p class="font-32 text-center font-weight-bold mt-5">一ヶ月の生活費公開</p>
+        <p class="progress_intro_msg mt-5 text-center font-20 font-plus" style="line-height:40px;">
+          はじめまして! <br>
+          Webデザイン科1年のカントポンです。<br>
+          ここでは、私の1ヶ月の生活費（予算10万円）を円グラフで紹介します。<br>
+          これから日本での生活を考えている方の参考になればうれしいです！
+        </p>
+        <div class="row progress_intro">
+          <div class="col-md-7">
+            <img src="Images/donutchart.svg" alt="chart" class="img-fluid">
+            <div class="progress_circle d-flex justify-content-center">            
+              <div class="progress_circle_1 mt-5 mr-5" >
+                <span class="circle_mark_1"></span>
+                <span class="label_text">家賃</span>
+              </div>
+              <div class="progress_circle_2 mt-5 mr-5" >
+                <span class="circle_mark_2"></span>
+                <span class="label_text">食費  </span>
+              </div>
+              <div class="progress_circle_3 mt-5 mr-5" >
+                <span class="circle_mark_3"></span>
+                <span class="label_text">交通費</span>
+              </div>
+              <div class="progress_circle_4 mt-5" >
+                <span class="circle_mark_4"></span>
+                <span class="label_text">趣味</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="row progress_bar">
+              <div class="col-6">
+                <button class="left-btn">食費</button>
+                <p class="mt-4 font-15">食費は全体の40%を占めており外食や食品価格の高騰が影響しています。</p>
+                <div class="progress_mark mt-4">
+                  <i class="progress_mark_1">
+                    <span class="font-noto"> 40%</span>
+                  </i>
+                </div>
+              </div>
+              <div class="col-6">
+                <button class="right-btn">家賃</button>
+                <p class="mt-4 font-15">家賃は35%と高く、都市部での住居費の負担のが大きいことが理由です。 </p>
+                <div class="progress_mark mt-4">
+                    <i class="progress_mark_2">
+                      <span class="font-noto"> 35%</span>
+                    </i>
+                  </div>
+              </div>
+            </div>        
+          </div>
+        </div>
+
+      </section>
+      <!-- expense start -->
+      <!-- foreign start -->
+      <section id="foreign" class="container py-5">
+        <p class="font-32 text-center font-weight-bold mt-5">留学生窓口</p>
+        <img src="Images/foreign_assit.svg" alt="foreign-photo" class="img-fluid mt-5">
+        <p class="font-20 mt-5"  style="line-height: 33px;">
+          留学生窓口は、学生生活のあらゆる不安や悩みに寄り添ってくれる、留学生にとって心強いサ	ポート窓口です。ビザや住まい、アルバイトの相談はもちろん、授業や日常生活で困ったことなど、どんな小さなことでも気軽に相談できます。スタッフは多言語に対応しており、母国語でのサポートも可能ですが、「せっかく日本に来たからこそ、日本語を上達させてほしい」という想いから、やさしい日本語での対応を大切にしています。何よりも、あなたの日本での留学生活が充実したものになるよう、親身にサポートしてくれるあたたかい場所です。
+        </p>
+      </section>
+      <!-- foreign end -->
+      <!-- openCampus start -->
+      <section id="openCampus" class="container pb-5 ">
+        <p class="font-32 text-center font-weight-bold mt-5">オープンキャンパスで体験できること</p>
+        <div class="education_sections mt-5">	      
+	        <div class="education_content mt-5">	                        
+	          <div class="education_data">
+	            <div>
+	              <p class="font-plus education_title font-20 font-weight-bold" >Webデザイン科（2年制）</p>
+	              <span class="education_subtitle font-16" >
+                  企画からプレゼンまで、Web制作のすべてを学ぶ!
+                </span>                                
+	            </div>
+	            <div>
+	              <span class="education_rounder"></span>
+	              <span class="education_line"></span>
+	            </div>
+	          </div>	                        
+	          <div class="education_data">
+	            <div>                
+              </div>
+	            <div>
+	              <span class="education_rounder"></span>
+	              <span class="education_line"></span>
+	            </div>
+	            <div>
+	              <p class="font-plus education_title font-20 font-weight-bold" >実践課題の一例
+                </p>
+	              <span class="education_subtitle font-16" >
+                「お菓子のプロモーションサイト」を企画から制作！
+                </span>                                
+	            </div>                          
+	          </div>	                        
+	          <div class="education_data">
+	            <div>
+	              <p class="font-plus education_title font-20 font-weight-bold" >目指せる職種</p>
+	              <span class="education_subtitle font-16" >
+                 Webデザイナー、UI・UXデザイナー、Webプログラマ
+                </span>                                
+	            </div>
+	            <div>
+	              <span class="education_rounder"></span>
+	             
+	            </div>                           
+	          </div>
+	        </div>
+	      </div>
+      </section>
+      <!-- openCampus end -->
+      <!-- contact section start -->        
+      <section id="contact" class="py-4 px-3">
+        <div class="container bg-fav">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="font-plus  font-weight-bold text-white text-center mt-4">未来の自分のために、今すぐ一歩を踏み出そう。
+
+              </span></h1>
+              <button class=" btn mt-5 font-18 font-weight-bold d-block mx-auto py-2 px-4">オープンキャンパス今すぐ参加する</button>
+            </div>            
+          </div>
+          
+        </div>
+		  </section>
+      <!-- contact section end -->
+      <!--  blogs section start -->   
+      <section id="blogs" class="container py-5">
+        <p class="font-32 text-center font-weight-bold mt-5">学科のブログ</p>
+        <div class="row mt-5">
+          <div class="col-lg-4 mt-5">
+            <div class="blogs-image-overlay">
+							<img src="Images/blog1.JPG" alt="" class="img-fluid">
+							<div class="blogs-overlay-content">
+									<div class="blogs-overlay-text">
+										<span class="material-icons text-white">
+										more_horiz
+										</span>
+									</div>
+							</div>
+						</div>           
+            <div class="blog-contents bg-sub-fav py-5 px-3">
+              <p class="font-24 font-weight-bold">
+                ドキドキの入学初日
+              </p>
+              <p class="font-18 font-noto mt-4">
+                今日はついに学校の初日でした。正直、朝はすごく緊張していて、「日本語の授業についていけるか	な」「友だちできるかな」ってずっと考えていました。
+              </p>
+              <a href="#">
+                <p class="text-fav font-15 font-plus text-center font-weight-bold mt-4 btn-text">
+                  もっと読む <img src="Images/right-arrow.svg" alt="right-arrow-photo" class="img-fluid">
+                </p>
+              </a>              
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5">
+            <div class="blogs-image-overlay">
+							<img src="Images/blog2.JPG" alt="" class="img-fluid">
+							<div class="blogs-overlay-content">
+									<div class="blogs-overlay-text">
+										<span class="material-icons text-white">
+										more_horiz
+										</span>
+									</div>
+							</div>
+						</div>           
+            <div class="blog-contents bg-sub-fav py-5 px-3">
+              <p class="font-24 font-weight-bold">
+                心配が楽しさに変わった瞬間
+              </p>
+              <p class="font-18 font-noto mt-4">
+                JEC Weekのとき、「この2年間、ずっと一緒に過ごすメンバーと仲良くできるかな」と少し不安でした。まだ授業も始まっていないけれど、初日はお互いに。
+              </p>
+              <a href="#">
+                <p class="text-fav font-15 font-plus text-center font-weight-bold mt-4 btn-text">
+                  もっと読む <img src="Images/right-arrow.svg" alt="right-arrow-photo" class="img-fluid">
+                </p>
+              </a>              
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5">
+            <div class="blogs-image-overlay">
+							<img src="Images/blog3.JPG" alt="" class="img-fluid">
+							<div class="blogs-overlay-content">
+									<div class="blogs-overlay-text">
+										<span class="material-icons text-white">
+										more_horiz
+										</span>
+									</div>
+							</div>
+						</div>           
+            <div class="blog-contents bg-sub-fav py-5 px-3">
+              <p class="font-24 font-weight-bold">
+                先輩と後輩のつながり
+              </p>
+              <p class="font-18 font-noto mt-4">
+                Webデザイン科では、先輩と後輩のつながりがとても強いです。入学前は「クラスに友だちはでき		るかな…」「課題についていけるかな…」と不安でいっぱ。
+              </p>
+              <a href="#">
+                <p class="text-fav font-15 font-plus text-center font-weight-bold mt-4 btn-text">
+                  もっと読む <img src="Images/right-arrow.svg" alt="right-arrow-photo" class="img-fluid">
+                </p>
+              </a>              
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <!--  blogs section end -->
+      <!--access section start  -->
+      <!--access section start  -->
+      <section id="access" class="container pb-5">
+        <p class="font-32 text-center font-weight-bold mt-5">アクセス</p>
+        <div class="row mt-5">
+          <div class="col-lg-7 col-md-12 mt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0860576549785!2d139.69247356131692!3d35.699499828855984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d2957500001%3A0x1d8d693684456a0!2z5pel5pys6Zu75a2Q5bCC6ZaA5a2m5qCh77yX5Y-36aSo!5e0!3m2!1sja!2sjp!4v1752557891231!5m2!1sja!2sjp" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-5">
+             
+            <div class="access_text">
+              <p class="font-40 font-weight-bold access_heading">
+                日本電子専門学校 
+              </p>
+              <div class="access_info_1" style="margin-top: 3rem!important;">
+                <span class="fas fa-map-marker-alt mr-3">                  
+                </span>
+                <p class="font-weight-bold font-18 mt-1">               
+                  7号館771号室               
+                </p>            
+              </div>
+              <div class="access_info_2 mt-2">
+                  <span class="fas fa-thumbtack mr-3">                  
+                  </span>
+                  <p class="font-weight-bold font-18 mt-1">               
+                  〒169-0074 東京都新宿区北新宿１丁目４−２ 日              
+                  </p>            
+              </div>
+            </div>
+           
+         
+          </div>
+        </div>
+      </section>
+      <!--access section end  -->
+
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer class="py-5  mt-5 bg-fav">
+      <div class="row text-white  container d-flex mx-auto">
+        <div class="col-md-4 mt-4">
+          <p class="font-18 font-weight-bold ">
+            Webデザイン科について
+          </p>
+          <p class="mt-5 ">
+            Webデザイン科は、世界中から集 <br>
+            まった学生たちが共に学び、成長できる <br>
+            場所です。
+          </p>
+        </div>
+        <div class="col-md-4 mt-4">
+          <p class="font-18 font-weight-bold ">
+            クイックリンク
+          </p>        
+            <p class="mt-5">Webデザイン科の一日</p>
+            <p class="mt-4">学科の紹介</p>
+            <p class="mt-4">在校生のメッセージ</p>
+            <p class="mt-4">生活費モデルケース</p>
+            <p class="mt-4">お問い合わせ</p>          
+        </div>
+        <div class="col-md-4 font-noto mt-4">
+          <p>
+            (c)2025 Khant Phone.All rights reserved.
+          </p>
+        </div> 
+      </div>
+
+      <div class="cotainer">
+        
+      </div>
+    </footer>
+    <!-- footer end -->
+      
+   
+               
+   
+
+    <script src="library/bootstrap/jquery-3.4.1.slim.min.js"></script>
+    <script src="library/bootstrap/popper.min.js "></script>
+    <script src="library/bootstrap/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
