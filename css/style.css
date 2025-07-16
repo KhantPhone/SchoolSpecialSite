@@ -8,7 +8,7 @@
   font-variation-settings: "wdth" 100;
 }
 .font-plus {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: "BIZ UDPMincho", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -89,6 +89,21 @@ header .navbar {
   padding: 20px 30px;
 }
 
+.custom-border-1 {
+    width: 6%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid var(--custom-bg);
+}
+.custom-border-2 {
+    width: 12%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid var(--custom-bg);
+
+}
 /* landing-page */
 #landing-page {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../Images/landing_bg.JPG);
@@ -236,9 +251,6 @@ header .navbar {
 #messages .polygon-photo {
   position: absolute;
 }
-#messages .profile-photo {
-  
-}
 
 /* expense */
 #expense .row .col-md-7 .img-fluid {
@@ -364,7 +376,7 @@ header .navbar {
 
 .education_line {
   display: block;
-  width: 1%;
+  width: 2px;
   height: 100%;
   background-color: var(--custom-text);
   transform: translate(6px, -7px);
@@ -502,7 +514,7 @@ footer ul li{
   }
 
   #landing-page p {
-    font-size: 17px;
+    font-size: 24px;
   }
   #landing-page span {
     font-size: 27px;
@@ -523,7 +535,7 @@ footer ul li{
     display: none;
   }
   #timeTable .category-menu button {
-    font-size: 14px;
+    font-size: 13px;
   }
   #expense .label_text {
     font-size: 12px !important;

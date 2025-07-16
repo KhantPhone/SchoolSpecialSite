@@ -1,7 +1,7 @@
 // typedScript
 var typed = new Typed('.typed1',{
 	strings:[
-	'世界中の友だち!', '新しい仲間!', '多文化の繋がり!'
+	'世界中の友だち!', '新しい仲間!', '多文化の輪!'
 	],
 	typeSpeed:50,
 	backSpeed:200,
