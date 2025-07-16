@@ -92,7 +92,7 @@ header .navbar {
 /* landing-page */
 #landing-page {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/landing_bg.JPG);
+    url(../Images/landing_bg.JPG);
   height: 110vh;
   background-size: cover;
   background-position: center;
